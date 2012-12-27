@@ -1,0 +1,16 @@
+.codebox{
+	background: #F3F8D7;
+	font-family: 'Consolas','DejaVu Sans Mono', 'Courier New', monospace;
+	border-color: #555555;
+	border-width: 2px;
+	border-style: solid;
+	margin: 10px 0 10px 0;
+}
+
+span.code-lang {
+	margin: 0 0 0 5px;
+}
+
+pre.prettyprint{
+	margin: 3px 0 0 0;
+}
