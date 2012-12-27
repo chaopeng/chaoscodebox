@@ -10,16 +10,15 @@ You should include prettify, jquery and chaoscodebox. Call prettify() onloaded.
 
 Here is a sample:
 
-```{html}
-<link rel="stylesheet" type="text/css" href="prettify/prettify.css" />
-<link rel="stylesheet" type="text/css" href="chaoscodebox/chaoscodebox.css" />
-<script type="text/javascript" src="prettify/prettify.js"></script>
-<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.3.min.js"></script>
-<script type="text/javascript" src="chaoscodebox/chaoscodebox.js"></script>
-<script type="text/javascript">
+	<link rel="stylesheet" type="text/css" href="prettify/prettify.css" />
+	<link rel="stylesheet" type="text/css" href="chaoscodebox/chaoscodebox.css" />
+	<script type="text/javascript" src="prettify/prettify.js"></script>
+	<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="chaoscodebox/chaoscodebox.js"></script>
+	<script type="text/javascript">
 
-$(document).ready(function(){
-	prettify();
-});
-```
+	$(document).ready(function(){
+		prettify();
+	});
+	</script>
 

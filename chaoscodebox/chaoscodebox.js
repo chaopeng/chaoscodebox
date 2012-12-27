@@ -20,7 +20,7 @@ function prettify(){
 			s += '<span style="float:right">';
 			s += button;
 			s += '</span>';
-			s += '<div id=code'+index+' style="display:none;">' + $(this.firstChild).text() + '</div>';
+			s += '<pre id=code'+index+' style="display:none;">' + $(this.firstChild).html() + '</pre>';
 
 		$(this).prepend(s);
 	});

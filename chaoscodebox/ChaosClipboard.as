@@ -28,7 +28,7 @@ package
 			var flashvars:Object = LoaderInfo( this.root.loaderInfo ).parameters;
 			
 			id = flashvars["id"];
-			var bgColorStr:String = flashvars.hasOwnProperty("bgColor")? flashvars["bgColor"]:"0xffffff";
+			var bgColorStr:String = flashvars.hasOwnProperty("bgColor")? flashvars["bgColor"]:"0xF3F8D7";
 			var fnColorStr:String = flashvars.hasOwnProperty("fnColor")? flashvars["fnColor"]:"0x000000";
 			
 			var bgColor:Number = parseInt(bgColorStr, 16);
