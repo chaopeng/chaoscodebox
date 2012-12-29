@@ -4,7 +4,7 @@
 	border-color: #555555;
 	border-width: 2px;
 	border-style: solid;
-	margin: 10px 0 10px 0;
+	margin: 20px 0 10px 0;
 }
 
 span.code-lang {
@@ -12,5 +12,9 @@ span.code-lang {
 }
 
 pre.prettyprint{
+	margin: 3px 0 0 0;
+}
+
+code.prettyprint{
 	margin: 3px 0 0 0;
 }

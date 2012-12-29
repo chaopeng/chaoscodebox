@@ -11,19 +11,24 @@ var is_ie = (userAgent.indexOf('msie') != -1 && !is_opera && !is_saf && !is_webt
 var SWF_PATH = "chaoscodebox/ChaosClipboard.swf";
 
 function prettify(){
-	$('pre[lang]').wrap('<div class="codebox"></div>');
-	$('pre[lang]').addClass('prettyprint linenums');
-
-	$('div.codebox').each(function(index){
+	$('code').each(function(index){
+		var lang = $(this).attr('class');
+		var preNode = $(this.parentNode);
+		
+		preNode.addClass('prettyprint linenums');
+		preNode.wrap('<div class="codebox"></div>');
+		
 		var button = insertCopyButton("id=code" + index) ;
-		var s = '<span class="code-lang">CODE:'+$(this.firstChild).attr("lang").toUpperCase()+'</span>';
+		var s = '<span class="code-lang">CODE:'+lang.toUpperCase()+'</span>';
 			s += '<span style="float:right">';
 			s += button;
 			s += '</span>';
-			s += '<pre id=code'+index+' style="display:none;">' + $(this.firstChild).html() + '</pre>';
-
-		$(this).prepend(s);
+			s += '<pre id=code'+index+' style="display:none;">' + $(this).html() + '</pre>';
+		
+		var codebox = $(this.parentNode.parentNode);
+		codebox.prepend(s);
 	});
+
 	prettyPrint();
 }
 
