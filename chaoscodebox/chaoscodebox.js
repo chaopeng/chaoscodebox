@@ -8,17 +8,19 @@ var is_moz = (navigator.product == 'Gecko' && !is_saf) && userAgent.substr(userA
 var is_ns = userAgent.indexOf('compatible') == -1 && userAgent.indexOf('mozilla') != -1 && !is_opera && !is_webtv && !is_saf;
 var is_ie = (userAgent.indexOf('msie') != -1 && !is_opera && !is_saf && !is_webtv) && userAgent.substr(userAgent.indexOf('msie') + 5, 3);
 
-var SWF_PATH = "chaoscodebox/ChaosClipboard.swf";
+var SWF_PATH = "/assets/chaoscodebox/ChaosClipboard.swf";
 
 function prettify(){
+	var swf_path = arguments[0] || SWF_PATH;
 	$('code').each(function(index){
 		var lang = $(this).attr('class');
+		if(lang==null) return;
 		var preNode = $(this.parentNode);
 		
 		preNode.addClass('prettyprint linenums');
 		preNode.wrap('<div class="codebox"></div>');
 		
-		var button = insertCopyButton("id=code" + index) ;
+		var button = insertCopyButton("id=code" + index, swf_path) ;
 		var s = '<span class="code-lang">CODE:'+lang.toUpperCase()+'</span>';
 			s += '<span style="float:right">';
 			s += button;

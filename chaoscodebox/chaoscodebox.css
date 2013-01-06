@@ -13,8 +13,12 @@ span.code-lang {
 
 pre.prettyprint{
 	margin: 3px 0 0 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
 }
 
 code.prettyprint{
 	margin: 3px 0 0 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
 }
