@@ -23,3 +23,7 @@ code.prettyprint{
 	-webkit-border-radius: 0;
 	border-radius: 0;
 }
+
+ol.linenums{
+	margin: 0 0 10px 35px;
+}
