@@ -32,4 +32,6 @@ How can I uses it in workpress?
 1. add the sample code to `wp-content/themes/[current_theme]/header.php`.
 2. using`<pre><code class="language">code...</code></pre>` to insert code into your article.
 
-**Contact me if you have any questions at chaoscodebox**
+Contact me if you have any questions at chaoscodebox
+---
+weibo: [http://weibo.com/chaojianpeng](http://weibo.com/chaojianpeng)
