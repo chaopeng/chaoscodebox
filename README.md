@@ -9,7 +9,7 @@ How to use ChaosCodebox?
 You should include prettify, jquery and chaoscodebox. Call prettify() onloaded. 
 
 Here is a sample:
-
+```{java}
 	<link rel="stylesheet" type="text/css" href="prettify/prettify.css" />
 	<link rel="stylesheet" type="text/css" href="chaoscodebox/chaoscodebox.css" />
 	<script type="text/javascript" src="prettify/prettify.js"></script>
@@ -22,3 +22,4 @@ Here is a sample:
 	});
 	</script>
 
+```
