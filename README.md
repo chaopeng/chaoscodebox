@@ -46,3 +46,8 @@ Release Note
     - change clipboard from Flash to [clipboardjs](http://clipboardjs.com/)
     - remove google-prettify in repository
 
+Thanks
+---
+
+- [google-code-prettify](https://github.com/google/code-prettify)
+- [clipboardjs](http://clipboardjs.com/)

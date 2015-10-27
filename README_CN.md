@@ -47,3 +47,8 @@ weibo: [http://weibo.com/chaojianpeng](http://weibo.com/chaojianpeng)
     - 剪贴板实现由Flash迁移到[clipboardjs](http://clipboardjs.com/)
     - 删除仓库中google-prettify的代码
 
+感谢
+---
+
+- [google-code-prettify](https://github.com/google/code-prettify)
+- [clipboardjs](http://clipboardjs.com/)
