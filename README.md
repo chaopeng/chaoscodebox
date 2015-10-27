@@ -21,8 +21,9 @@ Here is a sample:
 <script type="text/javascript">
 
 $(document).ready(function(){
-	prettify();
-	new Clipboard('.copy');
+    prettify();
+    new Clipboard('.copy');
+}
 </script>
 ```
 
