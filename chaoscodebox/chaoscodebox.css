@@ -13,7 +13,7 @@ span.code-lang {
 }
 
 pre.prettyprint{
-    margin: 0;
+    margin: 3px 0 0 0;
     -webkit-border-radius: 0;
     border-radius: 0;
 }
@@ -25,5 +25,9 @@ code.prettyprint{
 }
 
 ol.linenums{
-    margin: 0 0 0 35px;
+    margin: 0 0 0 0;
+}
+
+button.copy{
+    font-size: 8px;
 }
