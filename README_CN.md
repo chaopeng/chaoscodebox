@@ -12,12 +12,12 @@ ChaosCodebox拥有一个复制到剪贴板的按钮，同时还会当前的显�
 
 ```{html}
 <link rel="stylesheet" type="text/css" href="http://cdn.staticfile.org/prettify/r298/prettify.css" />
-<link rel="stylesheet" type="text/css" href="https://rawgit.com/chaopeng/chaoscodebox/v2.0/chaoscodebox-min/sons-of-obsidian.css" />
-<link rel="stylesheet" type="text/css" href="https://rawgit.com/chaopeng/chaoscodebox/v2.0/chaoscodebox-min/chaoscodebox.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/chaopeng/chaoscodebox/v2.0/chaoscodebox-min/sons-of-obsidian.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/chaopeng/chaoscodebox/v2.0/chaoscodebox-min/chaoscodebox.css" />
 <script type="text/javascript" src="http://cdn.staticfile.org/prettify/r298/prettify.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.0/clipboard.min.js"></script>
 <script type="text/javascript" src="http://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
-<script type="text/javascript" src="https://rawgit.com/chaopeng/chaoscodebox/v2.0/chaoscodebox-min/chaoscodebox.js"></script>
+<script type="text/javascript" src="https://cdn.rawgit.com/chaopeng/chaoscodebox/v2.0/chaoscodebox-min/chaoscodebox.js"></script>
 <script type="text/javascript">
 
 $(document).ready(function(){
