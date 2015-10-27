@@ -22,8 +22,13 @@ Here is a sample:
 
 $(document).ready(function(){
     prettify();
-    new Clipboard('.copy');
-}
+    var clipboard = new Clipboard('.copy');
+    
+    clipboard.on('success', function(e) {
+
+        e.clearSelection();
+    });
+})
 </script>
 ```
 

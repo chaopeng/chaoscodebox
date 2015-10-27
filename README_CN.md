@@ -22,8 +22,13 @@ ChaosCodebox拥有一个复制到剪贴板的按钮，同时还会当前的显�
 
 $(document).ready(function(){
     prettify();
-    new Clipboard('.copy');
-}
+    var clipboard = new Clipboard('.copy');
+    
+    clipboard.on('success', function(e) {
+
+        e.clearSelection();
+    });
+})
 </script>
 ```
 
