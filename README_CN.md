@@ -11,16 +11,18 @@ ChaosCodebox拥有一个复制到剪贴板的按钮，同时还会当前的显�
 你需要在网页的`<head>`标签中插入如下的代码:
 
 ```{html}
-<link rel="stylesheet" type="text/css" href="prettify/prettify.css" />
+<link rel="stylesheet" type="text/css" href="http://cdn.staticfile.org/prettify/r298/prettify.css" />
+<link rel="stylesheet" type="text/css" href="chaoscodebox/sons-of-obsidian.css" />
 <link rel="stylesheet" type="text/css" href="chaoscodebox/chaoscodebox.css" />
-<script type="text/javascript" src="prettify/prettify.js"></script>
-<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="http://cdn.staticfile.org/prettify/r298/prettify.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.0/clipboard.min.js"></script>
+<script type="text/javascript" src="http://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
 <script type="text/javascript" src="chaoscodebox/chaoscodebox.js"></script>
-
 <script type="text/javascript">
+
 $(document).ready(function(){
-  prettify();
-});
+	prettify();
+	new Clipboard('.copy');
 </script>
 ```
 
@@ -37,5 +39,10 @@ $(document).ready(function(){
 
 weibo: [http://weibo.com/chaojianpeng](http://weibo.com/chaojianpeng)
 
+更新日志
+---
 
+- v2.0
+    - 剪贴板实现由Flash迁移到[clipboardjs](http://clipboardjs.com/)
+    - 删除仓库中google-prettify的代码
 

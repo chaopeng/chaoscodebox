@@ -11,16 +11,18 @@ You should include prettify, jquery and chaoscodebox. Call prettify() onloaded.
 Here is a sample:
 
 ```{html}
-<link rel="stylesheet" type="text/css" href="prettify/prettify.css" />
+<link rel="stylesheet" type="text/css" href="http://cdn.staticfile.org/prettify/r298/prettify.css" />
+<link rel="stylesheet" type="text/css" href="chaoscodebox/sons-of-obsidian.css" />
 <link rel="stylesheet" type="text/css" href="chaoscodebox/chaoscodebox.css" />
-<script type="text/javascript" src="prettify/prettify.js"></script>
-<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="http://cdn.staticfile.org/prettify/r298/prettify.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.0/clipboard.min.js"></script>
+<script type="text/javascript" src="http://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
 <script type="text/javascript" src="chaoscodebox/chaoscodebox.js"></script>
-
 <script type="text/javascript">
+
 $(document).ready(function(){
 	prettify();
-});
+	new Clipboard('.copy');
 </script>
 ```
 
@@ -35,3 +37,11 @@ How can I uses it in workpress?
 Contact me if you have any questions at chaoscodebox
 ---
 weibo: [http://weibo.com/chaojianpeng](http://weibo.com/chaojianpeng)
+
+Release Note
+---
+
+- v2.0
+    - change clipboard from Flash to [clipboardjs](http://clipboardjs.com/)
+    - remove google-prettify in repository
+
