@@ -2,6 +2,8 @@
 ---
 ChaosCodebox是一个网页的代码高亮库。它是使用google-code-prettify作为高亮引擎的。ChaosCodebox是一个[ChaosBlog](https://github.com/chaopeng/chaosblog)的一个子项目。
 
+[DEMO](https://rawgit.com/chaopeng/chaoscodebox/master/demo.html)
+
 与google-code-prettify的区别
 ---
 ChaosCodebox拥有一个复制到剪贴板的按钮，同时还会当前的显示语言类型。

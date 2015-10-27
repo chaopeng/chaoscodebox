@@ -4,6 +4,8 @@ ChaosCodebox is a syntax highlighting of code snippets in a web page. It uses go
 
 ChaosCodebox has a clipboard button so that you can copy code by one click.
 
+[DEMO](https://rawgit.com/chaopeng/chaoscodebox/master/demo.html)
+
 How to use ChaosCodebox?
 ---
 You should include prettify, jquery and chaoscodebox. Call prettify() onloaded. 
